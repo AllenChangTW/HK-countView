@@ -10,7 +10,9 @@ import UIKit
 
 class countView2: UIViewController {
 
+    
     @IBOutlet weak var countView2: UILabel!
+    var times = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +25,12 @@ class countView2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        times += 1
+        countView2.text = "第\(times)次"
+    }
 
+    
     /*
     // MARK: - Navigation
 

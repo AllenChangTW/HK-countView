@@ -96,7 +96,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="wAc-rp-aAq"/>
                     <connections>
-                        <outlet property="countView2" destination="1Pe-VF-vzw" id="oFt-sr-bhw"/>
+                        <outlet property="countView2" destination="1Pe-VF-vzw" id="CNv-OP-ui2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OVn-H2-GGi" sceneMemberID="firstResponder"/>
@@ -127,7 +127,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="BPN-Np-u4p"/>
                     <connections>
-                        <outlet property="countLabel3" destination="g9n-sY-BCP" id="602-Ji-hrI"/>
+                        <outlet property="countView3" destination="g9n-sY-BCP" id="hOx-vN-2nu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lse-bT-8jD" sceneMemberID="firstResponder"/>

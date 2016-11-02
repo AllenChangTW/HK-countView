@@ -11,6 +11,7 @@ import UIKit
 class countView1: UIViewController {
 
     @IBOutlet weak var countView1: UILabel!
+    var times = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,10 @@ class countView1: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        times += 1
+        countView1.text = "第\(times)次"
+    }
 
     /*
     // MARK: - Navigation

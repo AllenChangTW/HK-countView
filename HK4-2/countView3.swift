@@ -11,10 +11,9 @@ import UIKit
 class countView3: UIViewController {
 
 
-    @IBOutlet weak var countLabel3: UILabel!
+    @IBOutlet weak var countView3: UILabel!
     
     var times = 0
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +28,7 @@ class countView3: UIViewController {
     
     override func viewWillAppear(_ animated:Bool) {
         times += 1
-        countLabel3.text = "第\(times)次"
+        countView3.text = "第\(times)次"
     }
 
     /*
