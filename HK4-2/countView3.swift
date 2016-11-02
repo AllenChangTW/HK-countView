@@ -9,10 +9,8 @@
 import UIKit
 
 class countView3: UIViewController {
-
-
-    @IBOutlet weak var countView3: UILabel!
     
+    @IBOutlet weak var countView3: UILabel!
     var times = 0
     
     override func viewDidLoad() {

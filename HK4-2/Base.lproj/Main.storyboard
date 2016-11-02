@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="-657" y="122"/>
         </scene>
-        <!--Count View1-->
+        <!--第一頁-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="countView1" customModule="HK4_2" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="viewco">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="View" customClass="viewco">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -44,18 +44,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ygx-Nb-Eno">
-                                <rect key="frame" x="112" y="435" width="190" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="下一頁"/>
-                                <connections>
-                                    <segue destination="O9l-z7-9Qr" kind="show" id="R1D-Pj-CdJ"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.061374377260000001" green="1" blue="0.27009031490000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="WA6-vV-Arl"/>
+                    <navigationItem key="navigationItem" title="第一頁" id="KaD-4b-SRT">
+                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="ITD-6F-l2q">
+                            <connections>
+                                <segue destination="O9l-z7-9Qr" kind="show" id="Uuf-cy-S4x"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="countView1" destination="YvY-87-uI4" id="87r-vj-jWz"/>
                     </connections>
@@ -64,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="49" y="121"/>
         </scene>
-        <!--Count View2-->
+        <!-- 第二頁-->
         <scene sceneID="DjN-72-Olu">
             <objects>
-                <viewController id="O9l-z7-9Qr" customClass="countView2" customModule="HK4_2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="O9l-z7-9Qr" userLabel=" 第二頁" customClass="countView2" customModule="HK4_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="q3N-ra-bkh"/>
                         <viewControllerLayoutGuide type="bottom" id="cAA-UB-VnD"/>
@@ -83,18 +81,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rjw-Ou-25L">
-                                <rect key="frame" x="112" y="435" width="190" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="下一頁"/>
-                                <connections>
-                                    <segue destination="Iix-U5-ks3" kind="show" id="NWt-YQ-lP0"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.57067727759999998" blue="0.22446095520000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="wAc-rp-aAq"/>
+                    <navigationItem key="navigationItem" title="第二頁" id="5iz-1d-kJT">
+                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="FNp-Yw-SWb">
+                            <connections>
+                                <segue destination="Iix-U5-ks3" kind="show" id="n3q-Ow-Flj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="countView2" destination="1Pe-VF-vzw" id="CNv-OP-ui2"/>
                     </connections>
@@ -103,7 +99,7 @@
             </objects>
             <point key="canvasLocation" x="748" y="121"/>
         </scene>
-        <!--Count View3-->
+        <!--第三頁-->
         <scene sceneID="bGD-3d-Vy0">
             <objects>
                 <viewController id="Iix-U5-ks3" customClass="countView3" customModule="HK4_2" customModuleProvider="target" sceneMemberID="viewController">
@@ -125,7 +121,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.9334249496" green="0.20675375400000001" blue="0.2058662218" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="BPN-Np-u4p"/>
+                    <navigationItem key="navigationItem" title="第三頁" id="rZr-3c-8rL"/>
                     <connections>
                         <outlet property="countView3" destination="g9n-sY-BCP" id="hOx-vN-2nu"/>
                     </connections>
